@@ -2,14 +2,14 @@ var admin = '76561198072813390';
  
 var logOnOptions = {
         accountName: 'trolfacecharmander',
-        password: 'CharmanderPokemon'
+        password: ''
 };
 var GameTime = 120;
  
  
 ////
  
-var authCode = '96Q69';
+var authCode = '';
  
 var globalSessionID;
 if (require('fs').existsSync('sentry_'+logOnOptions['accountName']+'.hash')) {
@@ -28,22 +28,17 @@ if (require('fs').existsSync('sentry_'+logOnOptions['accountName']+'.hash')) {
  
 var sitename;
  
-sitename = "shibescarves.com";
+sitename = "";
 var Steam = require('steam');
 var SteamTradeOffers = require('steam-tradeoffers');
 var mysql      = require('mysql');
 var request = require("request");
  
-var apik = "527BB04F53CC54C2989F49361B9E091E";
+var apik = "";
  
 var mysqlInfo;
 mysqlInfo = {
-  host     : '176.32.230.252',
-  user     : 'cl57-example-yvc',
-  password : 'YNnXj.!cf',
-  database : 'cl57-example-yvc',
-  charset  : 'utf8_general_ci'
-};
+  host     : 
  
 var mysqlConnection = mysql.createConnection(mysqlInfo);
  
